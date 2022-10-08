@@ -42,7 +42,7 @@ function Row(props: Props) {
           ))}
         </div>
         <ChevronRightIcon
-          className="absolute top-0 bottom-0 right-10 z-40 m-auto h-12 w-12 cursor-pointer opacity-0 transition hover:scale-125 group-hover:opacity-100"
+          className="absolute top-0 bottom-0 right-4 z-40 m-auto h-9 w-9 md:h-12 md:w-12  cursor-pointer opacity-0 transition hover:scale-125 group-hover:opacity-100"
           onClick={() => handleClick("right")}
         />
       </div>
